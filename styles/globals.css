@@ -22,7 +22,7 @@ body {
   border-radius: 50%;
 }
 .slider-main .slick-dots li.slick-active button:before {
-  background-color: #8db654;
+  background-color: #f88f55;
   opacity: 1;
   width: 20px;
   height: 10px;
@@ -78,7 +78,7 @@ body {
   border-radius: 50%;
 }
 .slider-second .slick-dots li.slick-active button:before {
-  background-color: #8db654;
+  background-color: #f88f55;
   opacity: 1;
 }
 .slider-second .slick-dots {
@@ -115,7 +115,7 @@ body {
   height: 3px;
   width: 0;
   transition: width 0.5s, left 0.5s, right 0.5s;
-  background: #60a600;
+  background: #f88f55;
 }
 .width-trans:hover:after {
   width: 100%;
@@ -311,7 +311,7 @@ input:not(:focus):valid ~ .floatingLabel {
   left: 0px;
   font-size: 11px;
   opacity: 1;
-  color: #5eaef5;
+  color: #f88f55;
 }
 
 .floating-label-group {
@@ -337,7 +337,7 @@ textarea:not(:focus):valid ~ .floating-label {
   left: 0px;
   font-size: 11px;
   opacity: 1;
-  color: #5eaef5;
+  color: #f88f55;
 }
 
 /* card css */
@@ -407,7 +407,7 @@ textarea:not(:focus):valid ~ .floating-label {
     text-align: center;
     height: 30px;
     border-radius: 50%;
-    background-color: #8db654;
+    background-color: #f97316;
     color: #fff;
     line-height: 30px;
     font-size: 18px;

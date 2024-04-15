@@ -25,8 +25,8 @@ const Id = ({ offer }) => {
       </div>
       <div className="container max-w-[1096px] m-auto max-xl:max-w-auto max-xl:px-[15px]">
         <div className="relative my-[24px] mx-auto bg-[#fff] mb-[24px] rounded-md py-[36px] px-0 pb-5 text-center  shadow-[0_2px_13px_0_#00000014]">
-          <b className="block text-[20px] text-[#8db654] relative font-[500]">
-            <span className="inline-block w-[32px] h-[32px] bg-[#8db654] rounded-[50%] align-middle mr-3 relative top-[-2px] text-center leading-[30px]">
+          <b className="block text-[20px] text-[#f88f55] relative font-[500]">
+            <span className="inline-block w-[32px] h-[32px] bg-[#f88f55] rounded-[50%] align-middle mr-3 relative top-[-2px] text-center leading-[30px]">
               <BsCheck2 className="text-[#fff] w-[25px] h-[25px] inline-flex" />
             </span>
             Code Successfully Copied!
@@ -37,7 +37,7 @@ const Id = ({ offer }) => {
           <span className="block max-w-[300px] my-[24px] mx-auto h-[70px] leading-[66px] uppercase text-[24px] bg-[#f0f0f0] text-[#575757] border-[1.5px] border-dashed border-[#979797]">
             {offer.CouponCode}
           </span>
-          <div className="text-[#5eaef5] text-[16px] text-center pt-[15px] hidden">
+          <div className="text-[#f88f55] text-[16px] text-center pt-[15px] hidden">
             Copy & Continue
           </div>
           <div className="flex items-center justify-center bg-white">

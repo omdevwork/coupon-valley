@@ -47,7 +47,7 @@ const Offer = () => {
               className="custom-input border-[#ccc] border-[1px] p-[.5em_.6em] rounded text-[14px] placeholder:opacity-100 h-[44px] lg:max-w-[290px] w-full"
             />
             <button
-              className="bg-[#60a600] shadow-[0_0_6px_0_rgba(0,0,0,.23)] rounded-[3px] lg:w-[200px] w-full h-[44px] text-white text-[14px] lg:mt-0 mt-[7px]"
+              className="bg-[#f97316] shadow-[0_0_6px_0_rgba(0,0,0,.23)] rounded-[3px] lg:w-[200px] w-full h-[44px] text-white text-[14px] lg:mt-0 mt-[7px]"
               onClick={clickHandler}
             >
               SUBSCRIBE

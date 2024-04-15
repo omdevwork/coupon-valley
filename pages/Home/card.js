@@ -32,7 +32,7 @@ import { useRouter } from "next/router";
 //       <>
 //         <div className="mb-[14px] flex justify-between">
 //           <p className="text-black font-medium"> FREE OFFER </p>
-//           <button className="bg-[#8db654] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
+//           <button className="bg-[#f88f55] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
 //             EXCLUSIVE
 //           </button>
 //         </div>
@@ -47,7 +47,7 @@ import { useRouter } from "next/router";
 //       <>
 //         <div className="mb-[14px] flex justify-between">
 //           <p className="text-black font-medium"> GRABON EXCLUSIVE </p>
-// <button className="bg-[#8db654] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
+// <button className="bg-[#f88f55] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
 //   EXCLUSIVE
 // </button>
 //         </div>
@@ -62,7 +62,7 @@ import { useRouter } from "next/router";
 //       <>
 //         <div className="mb-[14px] flex justify-between">
 //           <p className="text-black font-medium"> GRABON EXCLUSIVE </p>
-//           <button className="bg-[#8db654] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
+//           <button className="bg-[#f88f55] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
 //             EXCLUSIVE
 //           </button>
 //         </div>
@@ -107,7 +107,7 @@ const PopularCard = ({ data, offerdata, categories }) => {
     <div>
       <div className="bg-[linear-gradient(to_bottom,#f1f5f8,#dfe8ef)] p-[20px_0]">
         <div className="lg:max-w-[1140px] sm:max-w-[720px] max-w-[540px] mx-auto px-[14px]">
-          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px] sm:text-[22px] text-[18px] text-[#030306]">
+          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px] sm:text-[22px] text-[18px] text-[#030306]">
             Popular Offers of the Day
           </h1>
           <div className="md:hidden mt-[20px] gap-x-[10px] gap-y-4 grid grid-cols-2">
@@ -137,7 +137,7 @@ const PopularCard = ({ data, offerdata, categories }) => {
                   />
                   <div className="p-[12px] bg-white rounded-[0_0_4px_4px]">
                     {data.title}
-                    {/*<button className="bg-[#8db654] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
+                    {/*<button className="bg-[#f88f55] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
                       EXCLUSIVE
                     </button>*/}
                     <p className="h-[40px] text-[#515151] leading-[1.4] text-[14px] overflow-hidden mb-[12px]">
@@ -176,7 +176,7 @@ const PopularCard = ({ data, offerdata, categories }) => {
                     />
                     <div className="p-[12px] bg-white rounded-[0_0_4px_4px]">
                       {data.title}
-                      {/*<button className="bg-[#8db654] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
+                      {/*<button className="bg-[#f88f55] text-white text-[12px] p-[2px_6px] h-[18px] lg:flex hidden justify-center items-center">
                         EXCLUSIVE
                       </button>*/}
                       <p className="h-[40px] text-[#515151] leading-[1.4] text-[14px] overflow-hidden mb-[12px]">

@@ -103,7 +103,7 @@ const DealsPopup = () => {
                           </span>
                           <button
                             onClick={handleCopy}
-                            className="absolute right-0 bg-[0_0] text-[#5eaef5] uppercase font-[500] p-0 rounded-sm inline-block leading-[normal] align-middle text-center"
+                            className="absolute right-0 bg-[0_0] text-[#f88f55] uppercase font-[500] p-0 rounded-sm inline-block leading-[normal] align-middle text-center"
                           >
                             {copid ? "COPIED" : "COPY"}
                           </button>

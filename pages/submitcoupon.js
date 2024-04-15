@@ -65,7 +65,7 @@ const Submitcoupon = () => {
                   </div>
                 </div>
                 <div className="bg-[#f5f5f5] p-[6px_18px] lg:flex hidden items-center justify-center gap-[6px]">
-                  <BiSolidCheckCircle className="text-[#8db654] text-[14px]" />
+                  <BiSolidCheckCircle className="text-green-400 text-[14px]" />
                   <p className="text-[14px]">Verified On: 11/08/2023, (Fri)</p>
                 </div>
               </div>

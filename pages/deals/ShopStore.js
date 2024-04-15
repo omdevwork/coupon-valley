@@ -15,12 +15,12 @@ const ShopStore = ({ data }) => {
   return (
     <div className="lg:max-w-[1140px] md:max-w-[720px] max-w-[540px] mx-auto px-[14px] py-[24px]">
       <div className="mb-[24px] flex justify-between items-center">
-        <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
+        <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
           Shop by Store
         </h1>
         <button className="border-[1px] border-black sm:p-[7px_12px] p-[7px_8px] flex items-center gap-[6px] sm:text-[14px] text-[12px]">
           Show All Deals Stores
-          <span className="bg-[#42a1f4] w-[20px] h-[20px] shadow-[0_1px_3px_0_rgba(0,0,0,.37)] flex justify-center items-center text-white rounded-full">
+          <span className="bg-orange-500 w-[20px] h-[20px] shadow-[0_1px_3px_0_rgba(0,0,0,.37)] flex justify-center items-center text-white rounded-full">
             <BiChevronDown className="text-[16px] rotate-[-95deg]" />
           </span>
         </button>

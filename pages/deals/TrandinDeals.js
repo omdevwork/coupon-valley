@@ -39,7 +39,7 @@ const TrandinDeals = ({ data }) => {
     <div className="py-[20px] bg-[#e6edf2]">
       <div className="lg:max-w-[1140px] md:max-w-[720px] max-w-[540px] mx-auto px-[14px]">
         <div className="mb-[24px] flex justify-between items-center">
-          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 md:text-[22px] sm:text-[18px] text-[#030306]">
+          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 md:text-[22px] sm:text-[18px] text-[#030306]">
             Today{"'"}s Trending Deals
           </h1>
           <button
@@ -47,7 +47,7 @@ const TrandinDeals = ({ data }) => {
             onClick={scrollToTop}
           >
             <span className="flex-1">View All Deals</span>
-            <span className="bg-[#42a1f4] w-[20px] h-[20px] shadow-[0_1px_3px_0_rgba(0,0,0,.37)] flex justify-center items-center text-white rounded-full">
+            <span className="bg-orange-500 w-[20px] h-[20px] shadow-[0_1px_3px_0_rgba(0,0,0,.37)] flex justify-center items-center text-white rounded-full">
               <BiChevronDown className="text-[16px]" />
             </span>
           </button>
@@ -58,7 +58,7 @@ const TrandinDeals = ({ data }) => {
               key={key}
               className="group shadow-[0_1px_4px_0_rgba(17,19,35,.08)] cursor-pointer hover:shadow-[0_1px_4px_0_rgba(112,168,34,.78)] border-[1px] border-[#e7e7e7] p-[12px] rounded-md hover:border-[#70a822] transition-all relative bg-white"
             >
-              <div className="bg-[#8db654] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
+              <div className="bg-[#f88f55] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
                 {item.offer}
               </div>
               <div className="h-[150px] w-full">

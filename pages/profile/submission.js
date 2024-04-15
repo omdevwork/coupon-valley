@@ -25,23 +25,23 @@ const Submission = ({ recomandedstore, data }) => {
   const cardData = [
     {
       icon: (
-        <SiHomeassistantcommunitystore className="text-[#60a600] text-[18px]" />
+        <SiHomeassistantcommunitystore className="text-[#f88f55] text-[18px]" />
       ),
       text: "Stores Followed",
       num: "7",
     },
     {
-      icon: <BiSolidTag className="text-[#60a600] text-[24px]" />,
+      icon: <BiSolidTag className="text-[#f88f55] text-[24px]" />,
       text: "Categories Followed",
       num: "5",
     },
     {
-      icon: <BiSolidCoupon className="text-[#60a600] text-[22px]" />,
+      icon: <BiSolidCoupon className="text-[#f88f55] text-[22px]" />,
       text: "Coupons/Offers Saved",
       num: data?.favoriteCoupon?.length + data?.favoriteOffer?.length,
     },
     {
-      icon: <MdCardGiftcard className="text-[#60a600] text-[24px]" />,
+      icon: <MdCardGiftcard className="text-[#f88f55] text-[24px]" />,
       text: "Gift Card Orders",
       num: "0",
     },
@@ -173,7 +173,7 @@ const Submission = ({ recomandedstore, data }) => {
                 <button
                   className={`${
                     click === "Saved"
-                      ? "text-[#60a600] font-bold"
+                      ? "text-[#f88f55] font-bold"
                       : "text-[#383d4e]"
                   } text-[14px] py-2`}
                   onClick={() => setClick("Saved")}
@@ -214,7 +214,7 @@ const Submission = ({ recomandedstore, data }) => {
                 <button
                   className={`text-[14px] py-2 leading-[14px] ${
                     click === "Store"
-                      ? "text-[#60a600] font-bold"
+                      ? "text-[#f88f55] font-bold"
                       : "text-[#383d4e]"
                   }`}
                   onClick={() => setClick("Store")}
@@ -225,7 +225,7 @@ const Submission = ({ recomandedstore, data }) => {
                 <button
                   className={`text-[14px] py-2 leading-[14px] ${
                     click === "Categories"
-                      ? "text-[#60a600] font-bold"
+                      ? "text-[#f88f55] font-bold"
                       : "text-[#383d4e]"
                   }`}
                   onClick={() => setClick("Categories")}
@@ -292,12 +292,12 @@ const Submission = ({ recomandedstore, data }) => {
                       <p className="text-[13px] text-[#16171a] font-bold">
                         {data.text}
                       </p>
-                      <p className="text-[#60a600] mt-[10px] font-bold">
+                      <p className="text-[#f88f55] mt-[10px] font-bold">
                         {data.num}
                       </p>
                       <a
                         href="#"
-                        className="text-[#60a600] absolute bottom-[12px] right-[12px] transition-main invisible translate-y-[50px] underline opacity-0 text-[14px]"
+                        className="text-[#f88f55] absolute bottom-[12px] right-[12px] transition-main invisible translate-y-[50px] underline opacity-0 text-[14px]"
                       >
                         Show All
                       </a>
@@ -322,7 +322,7 @@ const Submission = ({ recomandedstore, data }) => {
                     placeholder="Enter your 10-digit Number"
                     className="border-[1px] border-[#ccc] p-[7px_8px] rounded text-[14px] w-[50%] h-[46px]"
                   />
-                  <button className="bg-[#8db654] hover:bg-[linear-gradient(transparent,rgba(0,0,0,.05)_40%,rgba(0,0,0,.1))] transition-data text-white text-[14px] rounded min-w-[120px] h-[44px] ml-1">
+                  <button className="bg-[#f88f55] hover:bg-[linear-gradient(transparent,rgba(0,0,0,.05)_40%,rgba(0,0,0,.1))] transition-data text-white text-[14px] rounded min-w-[120px] h-[44px] ml-1">
                     Sent OTP
                   </button>
                 </div>

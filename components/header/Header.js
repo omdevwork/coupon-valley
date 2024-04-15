@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/CouponValley PNG.png";
 import Image from "next/image";
 import { GoSearch } from "react-icons/go";
 import { IoIosNotificationsOutline } from "react-icons/io";
@@ -155,7 +155,7 @@ const Header = () => {
                     <Image
                       src={Logo}
                       alt=""
-                      className="w-auto h-[40px] sm:ml-[-16px] object-cover"
+                      className="w-auto h-[35px] sm:ml-[-5px] object-cover"
                     />
                   </Link>
                 </div>
@@ -206,14 +206,14 @@ const Header = () => {
                                   What do you want to search today?
                                 </span>
                                 <div className="lg:mt-[56px] mt-[20px] pb-[26px] border-b-[#dcdcdc] border-b-[1px]">
-                                  <h1 className="font-medium relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[70px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px]">
+                                  <h1 className="font-medium relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[70px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px]">
                                     Trending Now
                                   </h1>
                                   <div className="flex gap-1 items-center flex-wrap gap-x-[6px] gap-y-[10px]">
                                     {trend.map((data, key) => (
                                       <button
                                         key={key}
-                                        className="bg-[#ebebeb] hover:bg-[#60a600] text-[#545454] hover:text-[#fff] lg:text-[14px] text-[12px] p-[8px_16px] rounded-[20px] transition-all"
+                                        className="bg-[#ebebeb] hover:bg-[#f88f55] text-[#545454] hover:text-[#fff] lg:text-[14px] text-[12px] p-[8px_16px] rounded-[20px] transition-all"
                                       >
                                         {data.btn}
                                       </button>
@@ -277,7 +277,7 @@ const Header = () => {
                                     </div>
                                   </div>
                                   <div className="lg:block hidden">
-                                    <h1 className="font-medium relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[70px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px]">
+                                    <h1 className="font-medium relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[70px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px]">
                                       Hottest Now
                                     </h1>
                                     <div className="flex gap-[30px]">
@@ -308,7 +308,7 @@ const Header = () => {
                                     </div>
                                   </div>
                                   <div className="lg:block hidden">
-                                    <h1 className="font-medium relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[70px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px]">
+                                    <h1 className="font-medium relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[70px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px]">
                                       Featured Deal
                                     </h1>
                                     <div className="flex flex-col gap-y-[16px]">
@@ -396,7 +396,7 @@ const Header = () => {
                     onClick={() => {
                       setIsOpen(true);
                     }}
-                    className="bg-[#60a600] text-[#fff] rounded-sm h-[38px] py-2 px-4 lg:block hidden"
+                    className="bg-orange-500 text-[#fff] rounded-sm h-[38px] py-2 px-4 lg:block hidden"
                   >
                     Log In / Sign Up
                   </button>
@@ -410,33 +410,33 @@ const Header = () => {
             <ul className="flex gap-6">
               <Link
                 href="/stores"
-                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#60a600] cursor-pointer hover:shadow-[inset_0_-3px_#60a600]"
+                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#f88f55] cursor-pointer hover:shadow-[inset_0_-3px_#f88f55]"
               >
                 Stores
               </Link>
               <Link
                 href="/categories"
-                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#60a600] cursor-pointer hover:shadow-[inset_0_-3px_#60a600]"
+                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#f88f55] cursor-pointer hover:shadow-[inset_0_-3px_#f88f55]"
               >
                 Categories
               </Link>
-              <li
-                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#60a600] cursor-pointer hover:shadow-[inset_0_-3px_#60a600]"
+              {/* <li
+                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#f88f55] cursor-pointer hover:shadow-[inset_0_-3px_#f88f55]"
                 onClick={() => openInNewTab("/indulge")}
               >
                 Indulge
-              </li>
+              </li> */}
             </ul>
             <div className="flex gap-6">
-              <Link
+              {/* <Link
                 href={"/submitcoupon"}
-                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#60a600] cursor-pointer hover:shadow-[inset_0_-3px_#60a600]"
+                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#f88f55] cursor-pointer hover:shadow-[inset_0_-3px_#f88f55]"
               >
                 Submit Coupon
-              </Link>
+              </Link> */}
               <Link
                 href={"/deals"}
-                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#60a600] cursor-pointer hover:shadow-[inset_0_-3px_#60a600]"
+                className="p-[15px_0] text-[#16171a] text-[14px] transition-all hover:text-[#f88f55] cursor-pointer hover:shadow-[inset_0_-3px_#f88f55]"
               >
                 Deals Of The Day
               </Link>
@@ -540,16 +540,16 @@ const Header = () => {
                       <Link href="/categories" className="p-[16px_0] w-full">
                         Categories
                       </Link>
-                      <p
+                      {/* <p
                         href={"/indulge"}
                         onClick={() => openInNewTab("/indulge")}
                         className="p-[16px_0] w-full"
                       >
                         Indulge
-                      </p>
+                      </p> */}
                     </div>
                     <div className="border-t-[#cfcfcf] flex flex-col border-t-[1px] px-[12px] text-[14px]">
-                      <Link
+                      {/* <Link
                         href={"/submitcoupon"}
                         className="p-[16px_0]"
                         onClick={() => {
@@ -557,7 +557,7 @@ const Header = () => {
                         }}
                       >
                         Submit Coupon
-                      </Link>
+                      </Link> */}
                       <Link
                         href={"/deals"}
                         className="p-[16px_0]"

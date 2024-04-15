@@ -134,7 +134,7 @@ const Test = ({ data, rating }) => {
                     {totalLength} Coupons & Offers
                   </p>
                   <p className="border-l-0 ml-0 pl-0 text-[##bac1c2] my-0 mx-0 mb-1 inline-block text-[10px]">
-                    <BsCheck2 className="mr-1 text-[6px] w-[12px] h-[12px] text-[#fff] bg-[#8db654] rounded-[50%] inline-block align-middle text-center leading-3" />
+                    <BsCheck2 className="mr-1 text-[6px] w-[12px] h-[12px] text-[#fff] bg-[#3c91dc] rounded-[50%] inline-block align-middle text-center leading-3" />
                     {totalLength} Verified
                   </p>
                   <p className="border-l border-l-[#d6d8da] pl-[6px] ml-[6px] text-[#bac1c2] my-0 mx-0 mb-1 inline-block text-[10px]">
@@ -168,7 +168,7 @@ const Test = ({ data, rating }) => {
                   {test === matchRating ? (
                     <>
                       <button className="flex items-center pl-[12px]">
-                        <AiFillStar className="text-[36px] fill-[#8db654] stroke-[#8db654]" />
+                        <AiFillStar className="text-[36px] fill-[#3c91dc] stroke-[#3c91dc]" />
                         {matchingRatings.map((item, key) => (
                           <p
                             key={key}
@@ -201,7 +201,7 @@ const Test = ({ data, rating }) => {
                 <span className="px-[4px]">|</span>
 
                 <p className="flex">
-                  <AiFillCheckCircle className="text-[#8db654] mt-[3px] mr-2 w-[12px] bg-white rounded-full h-[12px]" />
+                  <AiFillCheckCircle className="text-[#3c91dc] mt-[3px] mr-2 w-[12px] bg-white rounded-full h-[12px]" />
                   {totalLength} Verified
                 </p>
                 <span className="px-[4px]">|</span>
@@ -232,7 +232,7 @@ const Test = ({ data, rating }) => {
                     checked={enabled}
                     onChange={setEnabled}
                     className={classNames(
-                      enabled ? "bg-[#8db654]" : "bg-[#808080]",
+                      enabled ? "bg-[#3c91dc]" : "bg-[#808080]",
                       "relative inline-flex h-[24px] w-[50px] flex-shrink-0 cursor-pointer rounded-full border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-0 focus:ring-indigo-600 focus:ring-offset-0"
                     )}
                   >

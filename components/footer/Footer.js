@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../public/logo.png";
+import logo from "../../public/CouponValley White PNG.png";
 import google1 from "../../public/Assets/Images/google1.png";
 import badge from "../../public/Assets/Images/badge_ios.png";
 import linkedin from "../../public/Assets/Images/linkedin.svg";
@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-between flex-wrap">
             <div className="lg:block hidden">
-              <Image src={logo} alt="logo" className="w-[140px] ml-[-18px]" />
+              <Image src={logo} alt="logo" className="w-[140px] ml-[-4px]" />
               <p className="text-[14px] text-white my-[14px]">
                 Striving towards making the world <br /> a better place to shop
                 with great savings! ;)
@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:w-auto w-[50%]">
-              <h1 className="text-[#8db654] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
                 COMPANY
               </h1>
               <a
@@ -117,7 +117,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="lg:w-auto w-[50%]">
-              <h1 className="text-[#8db654] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
                 SPECIALITY PAGES
               </h1>
               <a
@@ -164,7 +164,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="lg:w-auto w-[50%] lg:mt-0 mt-4">
-              <h1 className="text-[#8db654] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
                 MORE…
               </h1>
               <a
@@ -193,11 +193,11 @@ const Footer = () => {
               </a>
             </div>
             <div className="lg:w-auto w-[50%] lg:mt-0 mt-4">
-              <h1 className="text-[#8db654] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
                 CONTACT US
               </h1>
               <div className="flex gap-[5px]">
-                <LuMail className="text-[#8db654]" />
+                <LuMail className="text-[#f88f55]" />
                 <a
                   href="#"
                   className="text-[14px] hover:underline text-white block mb-[12px] leading-4"
@@ -206,7 +206,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex gap-[5px]">
-                <IoCallOutline className="text-[#8db654]" />
+                <IoCallOutline className="text-[#f88f55]" />
                 <a
                   href="#"
                   className="text-[14px] hover:underline text-white block mb-[12px] leading-4"
@@ -215,7 +215,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex gap-[5px]">
-                <BiHomeAlt className="text-[#8db654]" />
+                <BiHomeAlt className="text-[#f88f55]" />
                 <a
                   href="#"
                   className="text-[14px] hover:underline text-white block mb-[12px] leading-4"
@@ -227,23 +227,22 @@ const Footer = () => {
                   <br /> Hyderabad, TS, 500032
                 </a>
               </div>
-              <button className="bg-[#8db654] text-white flex items-center text-[14px] gap-[5px] p-[.5rem] rounded">
+              <button className="bg-orange-500 text-white flex items-center text-[14px] gap-[5px] p-[.5rem] rounded">
                 <PiHeadphonesBold className="text-[16px]" />
                 Contact Us
               </button>
             </div>
           </div>
           <div className="text-center border-t-[#fff3] border-t-[1px] pt-[24px] mt-[60px]">
-            <h1 className="text-[#8db654] font-bold lg:text-[49px] text-[28px]">
-              #SaveOnGrabOn
+            <h1 className="text-orange-500 font-bold lg:text-[49px] text-[28px]">
+              #DiscoverOnCouponValley
             </h1>
             <p className="lg:text-[16px] text-[14px] tracking-[.4px] mb-[36px] text-white">
-              We help you save on everything
+              We help you to Discover More & Spend Less
             </p>
             <p className="text-[11px] opacity-80 text-white">
-              © Copyright 2023. GrabOn is Registered Trademark of Inspirelabs
-              Solutions Pvt. Ltd. All Rights Reserved. Proudly Designed By
-              GrabOn Design Team.
+              © Copyright 2024. CouponValley is Registered Trademark of TatvaTech Pvt. Ltd. All Rights Reserved. Proudly Designed By
+              CouponValley Design Team.
             </p>
           </div>
         </div>

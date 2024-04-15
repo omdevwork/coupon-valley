@@ -64,7 +64,7 @@ const CouponOffer = () => {
   return (
     <div className="bg-[linear-gradient(to_bottom,#f1f5f8,#dfe8ef)] p-[20px_0] mt-[40px]">
       <div className="lg:max-w-[1140px] sm:max-w-[720px] max-w-[540px] mx-auto px-[14px]">
-        <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px] sm:text-[22px] text-[18px] text-[#030306]">
+        <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px] sm:text-[22px] text-[18px] text-[#030306]">
           Today's Top Coupons & Offers
         </h1>
         <div className="lg:flex gap-[26px] items-start">

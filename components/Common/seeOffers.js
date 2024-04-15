@@ -8,12 +8,12 @@ const SeeOffers = (props) => {
   const router = useRouter();
   const [click, setClick] = useState("store");
   const [open, setOpen] = useState(false);
-  const [selectedLetter, setSelectedLetter] = useState("");
+  const [selectedLetter, setSelectedLetter] = useState("All");
   const filteredOffers = props?.value?.data?.filter((data) =>
-    selectedLetter ? data?.RetailerName?.startsWith(selectedLetter) : true
+    selectedLetter && selectedLetter !== "All" ? data?.RetailerName?.startsWith(selectedLetter) : true
   );
   const filterCoupons = props?.data?.filter((data) =>
-    selectedLetter ? data?.categoriesName?.startsWith(selectedLetter) : true
+    selectedLetter && selectedLetter !== "All" ? data?.categoriesName?.startsWith(selectedLetter) : true
   );
 
   const test = props?.value?.count?.filter((item) => item);
@@ -43,7 +43,7 @@ const SeeOffers = (props) => {
             )}
           </div>
           <div className="flex lg:gap-[24px] gap-[12px]">
-            <div className="lg:min-w-[240px] min-w-[100px] lg:h-[180px] h-[80px] bg-[#8db654] rounded flex justify-center items-center text-white lg:text-[28px] text-[14px] z-[1]">
+            <div className="lg:min-w-[240px] min-w-[100px] lg:h-[180px] h-[80px] bg-[#b65c2c] rounded flex justify-center items-center text-white lg:text-[28px] text-[14px] z-[1]">
               <h1 className="text-center lg:leading-[34px] leading-[14px]">
                 ALL <br /> {props.title}
               </h1>
@@ -106,7 +106,7 @@ const SeeOffers = (props) => {
                   </div>
                 </div>
                 <div className="bg-[#f5f5f5] p-[6px_18px] lg:flex hidden items-center justify-center gap-[6px]">
-                  <BiSolidCheckCircle className="text-[#8db654] text-[14px]" />
+                  <BiSolidCheckCircle className="text-green-400 text-[14px]" />
                   <p className="text-[14px]">Verified On: 11/08/2023, (Fri)</p>
                 </div>
               </div>
@@ -116,8 +116,8 @@ const SeeOffers = (props) => {
                     onClick={() => setClick("categories")}
                     className={
                       click === "categories"
-                        ? "py-[12px] text-[#8db654] text-[14px] leading-4 w-full text-start"
-                        : "py-[12px] text-[#515151] hover:text-[#8db654] text-[14px] leading-4 w-full text-start"
+                        ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                        : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
                     }
                   >
                     See All Categories
@@ -128,8 +128,8 @@ const SeeOffers = (props) => {
                     onClick={() => setClick("store")}
                     className={
                       click === "store"
-                        ? "py-[12px] text-[#8db654] text-[14px] leading-4 w-full text-start"
-                        : "py-[12px] text-[#515151] hover:text-[#8db654] text-[14px] leading-4 w-full text-start"
+                        ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                        : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
                     }
                   >
                     See All Stores
@@ -139,8 +139,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("brand")}
                   className={
                     click === "brand"
-                      ? "py-[12px] text-[#8db654] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#8db654] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Brands
@@ -149,8 +149,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("bank")}
                   className={
                     click === "bank"
-                      ? "py-[12px] text-[#8db654] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#8db654] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Banks
@@ -159,7 +159,7 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("festival")}
                   className={
                     click === "festival"
-                      ? "py-[12px] text-[#8db654] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
                       : "py-[12px] text-[#515151] hover:text-[rgb(141,182,84)] text-[14px] leading-4 w-full text-start"
                   }
                 >
@@ -169,8 +169,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("deals")}
                   className={
                     click === "deals"
-                      ? "py-[12px] text-[#8db654] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#8db654] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Product Deals
@@ -179,8 +179,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("cities")}
                   className={
                     click === "cities"
-                      ? "py-[12px] text-[#8db654] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#8db654] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Cities Deals
@@ -209,7 +209,7 @@ const SeeOffers = (props) => {
                           >
                             <div className="h-[68px] w-full flex items-center">
                               <Image
-                                src={`/uploads/${data.RetailerLogo}`}
+                                src={`/uploads/${data.RetailerImage}`}
                                 alt="myntra-logo"
                                 className="max-w-[80%] max-h-[150%] mx-auto object-cover"
                                 width={80}
@@ -269,17 +269,25 @@ const SeeOffers = (props) => {
                 <p className="text-black text-[16px] font-bold m-[24px_0_16px]">
                   {props.browse}
                 </p>
-                <div className="mb-[40px] mt-[20px] flex gap-[12px] flex-wrap">
+                <div className="mb-[25px] mt-[20px] flex gap-[12px] flex-wrap">
+                  <p
+                    className={`text-[14px] cursor-pointer ${selectedLetter === "All"
+                      ? "text-[#f88f55]"
+                      : "hover:text-[#f88f55]"
+                      } cursor-pointer`}
+                    onClick={() => setSelectedLetter("All")}
+                  >
+                    All
+                  </p>
                   {Array.from({ length: 26 }, (_, index) => {
                     const letter = String.fromCharCode(65 + index);
                     return (
                       <p
                         key={index}
-                        className={`text-[14px] cursor-pointer ${
-                          selectedLetter === letter
-                            ? "text-[#8db654]"
-                            : "hover:text-[#8db654]"
-                        } cursor-pointer`}
+                        className={`text-[14px] cursor-pointer ${selectedLetter === letter
+                          ? "text-[#f88f55]"
+                          : "hover:text-[#f88f55]"
+                          } cursor-pointer`}
                         onClick={() => setSelectedLetter(letter)}
                       >
                         {letter}
@@ -288,46 +296,52 @@ const SeeOffers = (props) => {
                   })}
                 </div>
               </div>
-              <div className="grid lg:grid-cols-3 grid-cols-2 gap-y-[18px] mb-[40px]">
-                {filteredOffers?.map((item, key) => (
-                  <div key={key}>
-                    <label
-                      className="text-[14px] font-bold cursor-pointer"
-                      onClick={() =>
-                        router.push(
-                          `/${item.RetailerName}?merchantId=${item._id}`
-                        )
-                      }
-                    >
-                      {item.RetailerName}
-                    </label>
-                    <p className="text-[#515151] lg:text-[14px] text-[12px] flex mb-[14px]">
-                      {/* {item.coupon} */} 1 Coupon
-                      <span className="block lg:px-[8px] px-[4px]">|</span>
-                      {/* {item.offer} */} 2 Offer
-                    </p>
-                  </div>
-                ))}
-              </div>
-              <div className="grid lg:grid-cols-3 grid-cols-2 gap-y-[18px] mb-[40px]">
-                {filterCoupons?.map((item, key) => (
-                  <div key={key}>
-                    <label
-                      className="text-[14px] font-bold cursor-pointer"
-                      onClick={() =>
-                        router.push(`/product_categories/${item._id}`)
-                      }
-                    >
-                      {item.categoriesName}
-                    </label>
-                    <p className="text-[#515151] lg:text-[14px] text-[12px] flex mb-[14px]">
-                      {/* {item.coupon} */} 1 Coupon
-                      <span className="block lg:px-[8px] px-[4px]">|</span>
-                      {/* {item.offer} */} 2 Offer
-                    </p>
-                  </div>
-                ))}
-              </div>
+              {
+                filteredOffers &&
+                <div className="grid lg:grid-cols-3 grid-cols-2 gap-y-[18px] mb-[40px]">
+                  {filteredOffers?.map((item, key) => (
+                    <div key={key}>
+                      <label
+                        className="text-[14px] font-bold cursor-pointer"
+                        onClick={() =>
+                          router.push(
+                            `/${item.RetailerName}?merchantId=${item._id}`
+                          )
+                        }
+                      >
+                        {item.RetailerName}
+                      </label>
+                      <p className="text-[#515151] lg:text-[14px] text-[12px] flex mb-[14px]">
+                        {/* {item.coupon} */} 1 Coupon
+                        <span className="block lg:px-[8px] px-[4px]">|</span>
+                        {/* {item.offer} */} 2 Offer
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              }
+              {
+                filterCoupons &&
+                <div className="grid lg:grid-cols-3 grid-cols-2 gap-y-[18px] mb-[40px]">
+                  {filterCoupons?.map((item, key) => (
+                    <div key={key}>
+                      <label
+                        className="text-[14px] font-bold cursor-pointer"
+                        onClick={() =>
+                          router.push(`/product_categories/${item._id}`)
+                        }
+                      >
+                        {item.categoriesName}
+                      </label>
+                      <p className="text-[#515151] lg:text-[14px] text-[12px] flex mb-[14px]">
+                        {/* {item.coupon} */} 1 Coupon
+                        <span className="block lg:px-[8px] px-[4px]">|</span>
+                        {/* {item.offer} */} 2 Offer
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              }
             </div>
           </div>
         </div>

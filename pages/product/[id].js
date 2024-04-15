@@ -155,7 +155,7 @@ const Id = ({ data, getBrand }) => {
               </button>
             </p>
           </div>
-          <h2 className="text-[22px] border-t border-t-[#d6d8da] font-[600] pt-4 mt-[54px] relative after:content-[''] after:bg-[#8db654] after:w-[80px] after:block after:h-[4px] after:mt-[10px] mb-[18.25px]">
+          <h2 className="text-[22px] border-t border-t-[#d6d8da] font-[600] pt-4 mt-[54px] relative after:content-[''] after:bg-[#f88f55] after:w-[80px] after:block after:h-[4px] after:mt-[10px] mb-[18.25px]">
             Today{"'"}s {data.brand.brandTitle} Best Deals
           </h2>
           <div className="grid lg:grid-cols-4 grid-cols-2 gap-x-[8px] gap-y-[12px] lg:gap-[18px] mb-[12px] lg:gap-y-[28px]">
@@ -164,7 +164,7 @@ const Id = ({ data, getBrand }) => {
                 key={key}
                 className="group shadow-[0_1px_4px_0_rgba(17,19,35,.08)] cursor-pointer hover:shadow-[0_1px_4px_0_rgba(112,168,34,.78)] border-[1px] border-[#e7e7e7] p-[12px] rounded-md hover:border-[#70a822] transition-all relative bg-white"
               >
-                <div className="bg-[#8db654] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
+                <div className="bg-[#f88f55] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
                   {item.offer}
                 </div>
                 <div className="w-full h-[100px]">
@@ -232,7 +232,7 @@ const Id = ({ data, getBrand }) => {
               </div>
             </div>
           </div>
-          <h2 className="text-[22px] border-t border-t-[#d6d8da] font-[600] pt-4 mt-[54px] relative after:content-[''] after:bg-[#8db654] after:w-[80px] after:block after:h-[4px] after:mt-[10px] mb-[18.25px]">
+          <h2 className="text-[22px] border-t border-t-[#d6d8da] font-[600] pt-4 mt-[54px] relative after:content-[''] after:bg-[#f88f55] after:w-[80px] after:block after:h-[4px] after:mt-[10px] mb-[18.25px]">
             More Deals From {data.brand.brandTitle}
           </h2>
           <div className="grid lg:grid-cols-4 grid-cols-2 gap-x-[8px] gap-y-[12px] lg:gap-[18px] mb-[12px] lg:gap-y-[28px]">
@@ -241,7 +241,7 @@ const Id = ({ data, getBrand }) => {
                 key={key}
                 className="group shadow-[0_1px_4px_0_rgba(17,19,35,.08)] cursor-pointer hover:shadow-[0_1px_4px_0_rgba(112,168,34,.78)] border-[1px] border-[#e7e7e7] p-[12px] rounded-md hover:border-[#70a822] transition-all relative bg-white"
               >
-                <div className="bg-[#8db654] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
+                <div className="bg-[#f88f55] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
                   {item.offer}
                 </div>
                 <div className="w-full h-[100px]">
@@ -339,7 +339,7 @@ const Id = ({ data, getBrand }) => {
       </div>
       <div className="p-[24px_0] bg-[#eaeaea]">
         <div className="container max-w-[1140px] m-auto">
-          <h3 className="text-[22px] text-[#000] font-[700] relative m-[22px_0] after:content-[''] after:bg-[#8db654] after:w-[80px] after:block after:h-[4px] after:mt-[10px]">
+          <h3 className="text-[22px] text-[#000] font-[700] relative m-[22px_0] after:content-[''] after:bg-[#f88f55] after:w-[80px] after:block after:h-[4px] after:mt-[10px]">
             Related Stores
           </h3>
           <a
@@ -379,7 +379,7 @@ const Id = ({ data, getBrand }) => {
       </div>
       {/* <div className="p-[24px_0] bg-[#eaeaea]">
         <div className="container max-w-[1140px] m-auto">
-          <h3 className="text-[22px] text-[#000] font-[700] relative m-[22px_0] after:content-[''] after:bg-[#8db654] after:w-[80px] after:block after:h-[4px] after:mt-[10px]">
+          <h3 className="text-[22px] text-[#000] font-[700] relative m-[22px_0] after:content-[''] after:bg-[#f88f55] after:w-[80px] after:block after:h-[4px] after:mt-[10px]">
             More From {data.brand.brandTitle}
           </h3>
           <div>

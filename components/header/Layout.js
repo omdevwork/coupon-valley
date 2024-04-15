@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
       {showScrollButton && (
         <a
           onClick={scrollToTop}
-          className="bg-[#5eaef5] w-[50px] h-[50px] cursor-pointer shadow-[0_3px_10px_rgba(0,0,0,.5)] fixed top-[50%] translate-y-[-50%] right-0 flex justify-center items-center text-white text-[24px] rotate-180"
+          className="bg-orange-500 w-[50px] h-[50px] cursor-pointer shadow-[0_3px_10px_rgba(0,0,0,.5)] fixed top-[50%] translate-y-[-50%] right-0 flex justify-center items-center text-white text-[24px] rotate-180"
         >
           <BsChevronDown />
         </a>

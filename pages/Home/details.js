@@ -60,7 +60,7 @@ const TrendingDeals = ({ categories }) => {
     <div className="py-[20px] border-y-[#e7e7e7] border-y-[1px] mt-[24px]">
       <div className="lg:max-w-[1140px] sm:max-w-[720px] max-w-[540px] mx-auto px-[14px]">
         <div className="mb-[24px] flex justify-between items-center">
-          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#8db654] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
+          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
             Deals Of The Day
           </h1>
           <Link
@@ -68,7 +68,7 @@ const TrendingDeals = ({ categories }) => {
             className="border-[1px] border-black sm:p-[7px_12px] p-[7px_8px] flex items-center gap-[6px] sm:text-[14px] text-[12px]"
           >
             View More Deals
-            <span className="bg-[#42a1f4] w-[20px] h-[20px] shadow-[0_1px_3px_0_rgba(0,0,0,.37)] flex justify-center items-center text-white rounded-full">
+            <span className="bg-orange-500 w-[20px] h-[20px] shadow-[0_1px_3px_0_rgba(0,0,0,.37)] flex justify-center items-center text-white rounded-full">
               <BiChevronDown className="text-[16px] rotate-[-95deg]" />
             </span>
           </Link>
@@ -79,7 +79,7 @@ const TrendingDeals = ({ categories }) => {
               key={key}
               className="group shadow-[0_1px_4px_0_rgba(17,19,35,.08)] cursor-pointer hover:shadow-[0_1px_4px_0_rgba(112,168,34,.78)] border-[1px] border-[#e7e7e7] p-[12px] rounded-md hover:border-[#70a822] transition-all relative"
             >
-              <div className="bg-[#8db654] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
+              <div className="bg-[#f88f55] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
                 {item.offer}
               </div>
               <Image

@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/CouponValley PNG.png";
 import { GoSearch } from "react-icons/go";
 import { Dialog, Transition } from "@headlessui/react";
 import { IoClose } from "react-icons/io5";

@@ -113,10 +113,10 @@ const Categories = () => {
             Subscribe More Categories
           </p>
           <div className="flex gap-[16px]">
-            <button className="bg-[#60a600] text-white min-w-[120px] h-[42px] rounded-[26px] text-[14px]">
+            <button className="bg-[#f88f55] text-white min-w-[120px] h-[42px] rounded-[26px] text-[14px]">
               Save
             </button>
-            <button className="min-w-[120px] h-[42px] border-[#8db654] border-[1px] rounded-[26px] text-[#8db654] text-[14px]">
+            <button className="min-w-[120px] h-[42px] border-[#f88f55] border-[1px] rounded-[26px] text-[#f88f55] text-[14px]">
               Clear All
             </button>
           </div>
@@ -132,33 +132,33 @@ const Categories = () => {
           className="max-w-[400px] h-[44px] w-full border-[#ccc] border-[1px] rounded p-[7px_8px] text-[14px] my-[12px]"
         />
         <div className="mb-[40px] mt-[20px] flex gap-[16px] flex-wrap">
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">All</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">A</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">B</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">C</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">D</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">E</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">F</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">G</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">H</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">I</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">J</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">K</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">L</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">M</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">N</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">O</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">P</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">Q</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">R</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">S</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">T</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">U</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">V</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">W</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">X</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">Y</p>
-          <p className="text-[14px] hover:text-[#8db654] cursor-pointer">Z</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">All</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">A</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">B</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">C</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">D</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">E</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">F</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">G</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">H</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">I</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">J</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">K</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">L</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">M</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">N</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">O</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">P</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">Q</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">R</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">S</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">T</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">U</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">V</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">W</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">X</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">Y</p>
+          <p className="text-[14px] hover:text-[#f88f55] cursor-pointer">Z</p>
         </div>
         <div className="grid lg:grid-cols-3 grid-cols-2 gap-y-[18px] mb-[40px]">
           {Offer.map((data, key) => (
