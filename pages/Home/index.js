@@ -36,7 +36,8 @@ const cardData = [
   },
 ];
 
-const Home = ({ data, offerdata, categories }) => {
+const Home = ({ data, banner, offerdata, categories }) => {
+  console.log(data, banner, categories)
   const settings = {
     dots: true,
     infinite: true,
@@ -91,16 +92,14 @@ const Home = ({ data, offerdata, categories }) => {
         <div className="md:flex  gap-[20px] justify-between">
           <div className="lg:w-[75%] md:w-[70%] slider-main">
             <Slider {...settings}>
-              {data?.map((item, key) => (
+              {banner?.map((item, key) => (
                 <div
                   key={key}
                   className="lg:h-auto h-[200px] cursor-pointer"
-                  onClick={() =>
-                    openInNewTab(`/${item.RetailerName}?merchantId=${item._id}`)
-                  }
+                  onClick={() =>window.open(item.link)}
                 >
                   <Image
-                    src={`/uploads/${item.RetailerImage}`}
+                    src={`/uploads/${item.bannerImage}`}
                     alt="promo"
                     className="rounded-lg w-full max-h-[310px]  object-cover"
                     height={1000}

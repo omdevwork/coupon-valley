@@ -209,7 +209,7 @@ const SeeOffers = (props) => {
                           >
                             <div className="h-[68px] w-full flex items-center">
                               <Image
-                                src={`/uploads/${data.RetailerImage}`}
+                                src={`/uploads/${data.RetailerLogo}`}
                                 alt="myntra-logo"
                                 className="max-w-[80%] max-h-[150%] mx-auto object-cover"
                                 width={80}

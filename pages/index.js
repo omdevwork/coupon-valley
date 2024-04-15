@@ -1,10 +1,11 @@
-import Main from "./Home";
+import Main  from "./Home";
 import axios from "axios";
 
-export default function Home({ data, offerdata, categories }) {
+export default function Home({ data, banner, offerdata, categories }) {
+  console.log(data, "datdadadtatdtddtatd")
   return (
     <>
-      <Main data={data} offerdata={offerdata} categories={categories} />
+      <Main data={data} banner={banner} offerdata={offerdata} categories={categories} />
     </>
   );
 }
@@ -14,7 +15,9 @@ export async function getServerSideProps() {
     const response = await axios.get("http://localhost:3000/api/merchant");
     const data = response.data.data;
     const offer = await axios.get("http://localhost:3000/api/getOffer");
-    const offerdata = offer.data.data;
+    const bannerRes = await axios.get("http://localhost:3000/api/getBanner");
+    const banner = bannerRes.data.data || []
+    const offerdata = offer && offer.data && offer.data.data;
     const value = await axios.get(
       "http://localhost:3000/api/getdeals?categories=deals of the day"
     );
@@ -22,6 +25,7 @@ export async function getServerSideProps() {
     return {
       props: {
         data,
+        banner,
         offerdata,
         categories,
       },
@@ -31,6 +35,7 @@ export async function getServerSideProps() {
     return {
       props: {
         data: [],
+        banner: [],
         offerdata: [],
         categories: [],
       },
