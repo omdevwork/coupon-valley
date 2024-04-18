@@ -34,7 +34,7 @@ const Subscribe = () => {
     >
       <div className="lg:max-w-[1140px] md:max-w-[720px] max-w-[540px] mx-auto lg:px-[14px] px-[30px] lg:flex justify-between items-center">
         <div className="flex lg:justify-start justify-center gap-[12px]">
-          <div className="bg-[#f88f55] rounded-full lg:w-[68px] w-[50px] lg:h-[68px] h-[50px] flex justify-center items-center">
+          <div className="bg-orange-500 rounded-full lg:w-[68px] w-[50px] lg:h-[68px] h-[50px] flex justify-center items-center">
             <Image src={mail} alt="mail" className="lg:w-auto w-[25px]" />
           </div>
           <div>
@@ -66,7 +66,7 @@ const Subscribe = () => {
               className="text-[#828c99] border-[1px] border-[#979797] bg-white p-[12px] h-[40px] text-[12px] rounded-[3px] lg:w-[65%] w-full lg:placeholder:text-left placeholder:text-center"
             />
             <button
-              className="bg-[#f88f55] shadow-[0_0_6px_0_rgba(0,0,0,.23)] rounded-[3px] text-[14px] lg:w-[35%] w-full text-white p-[12px] h-[40px] flex justify-center items-center italic lg:mt-0 mt-[12px]"
+              className="bg-orange-500 shadow-[0_0_6px_0_rgba(0,0,0,.23)] rounded-[3px] text-[14px] lg:w-[35%] w-full text-white p-[12px] h-[40px] flex justify-center items-center italic lg:mt-0 mt-[12px]"
               onClick={clickHandler}
             >
               SUBSCRIBE

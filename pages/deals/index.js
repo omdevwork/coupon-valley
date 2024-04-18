@@ -70,7 +70,7 @@ const Deals = ({ data, categories, storeData }) => {
             <p>Deals of the Day</p>
           </div>
           <div className="flex justify-between items-start gap-2 flex-wrap">
-            <div className="bg-[#f88f55] lg:p-[12px_18px] p-[8px_12px] text-white uppercase rounded-sm">
+            <div className="bg-orange-500 lg:p-[12px_18px] p-[8px_12px] text-white uppercase rounded-sm">
               <h1 className="lg:text-[24px] text-[16px] font-bold leading-[26px]">
                 Deals of the Day
               </h1>

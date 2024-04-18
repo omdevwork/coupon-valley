@@ -76,7 +76,7 @@ const Indulge = () => {
             <div className="w-full lg:block md:flex gap-[30px]">
               <div>
                 <div>
-                  <p className="pb-[15px] border-b-[#ddd] border-b-[1px] text-[#111] popins text-[17px] relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[75px] after:h-[2px] after:bottom-[-2px] after:left-0 leading-[22px] mb-[22px]">
+                  <p className="pb-[15px] border-b-[#ddd] border-b-[1px] text-[#111] popins text-[17px] relative after:absolute after:content-[''] after:bg-orange-500 after:w-[75px] after:h-[2px] after:bottom-[-2px] after:left-0 leading-[22px] mb-[22px]">
                     Search
                   </p>
                   <div className="flex items-center">
@@ -91,7 +91,7 @@ const Indulge = () => {
                   </div>
                 </div>
                 <div>
-                  <p className="pb-[15px] border-b-[#ddd] border-b-[1px] text-[#111] popins text-[17px] relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[75px] after:h-[2px] after:bottom-[-2px] after:left-0 leading-[22px] mt-[35px] mb-[32px]">
+                  <p className="pb-[15px] border-b-[#ddd] border-b-[1px] text-[#111] popins text-[17px] relative after:absolute after:content-[''] after:bg-orange-500 after:w-[75px] after:h-[2px] after:bottom-[-2px] after:left-0 leading-[22px] mt-[35px] mb-[32px]">
                     Latest Posts
                   </p>
                   <div className="flex gap-[15px] items-start pb-[15px] mb-[15px] border-b-[#cecece4d] border-b-[1px]">
@@ -106,26 +106,26 @@ const Indulge = () => {
                 </div>
               </div>
               <div className="lg:mt-[35px] md:mt-0 mt-[30px]">
-                <p className="pb-[15px] border-b-[#ddd] border-b-[1px] text-[#111] popins text-[17px] relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[75px] after:h-[2px] after:bottom-[-2px] after:left-0 leading-[22px] lg:mt-[35px] mb-[32px]">
+                <p className="pb-[15px] border-b-[#ddd] border-b-[1px] text-[#111] popins text-[17px] relative after:absolute after:content-[''] after:bg-orange-500 after:w-[75px] after:h-[2px] after:bottom-[-2px] after:left-0 leading-[22px] lg:mt-[35px] mb-[32px]">
                   Top Merchants
                 </p>
                 <div>
-                  <p className="text-[#f88f55] hover:text-black font-bold cursor-pointer mb-1">
+                  <p className="text-orange-500 hover:text-black font-bold cursor-pointer mb-1">
                     Rapido Coupons
                   </p>
-                  <p className="text-[#f88f55] hover:text-black font-bold cursor-pointer mb-1">
+                  <p className="text-orange-500 hover:text-black font-bold cursor-pointer mb-1">
                     MakeMyTrip Coupons
                   </p>
-                  <p className="text-[#f88f55] hover:text-black font-bold cursor-pointer mb-1">
+                  <p className="text-orange-500 hover:text-black font-bold cursor-pointer mb-1">
                     Croma Coupons
                   </p>
-                  <p className="text-[#f88f55] hover:text-black font-bold cursor-pointer mb-1">
+                  <p className="text-orange-500 hover:text-black font-bold cursor-pointer mb-1">
                     Hostinger Coupons
                   </p>
-                  <p className="text-[#f88f55] hover:text-black font-bold cursor-pointer mb-1">
+                  <p className="text-orange-500 hover:text-black font-bold cursor-pointer mb-1">
                     Amazon Coupons
                   </p>
-                  <p className="text-[#f88f55] hover:text-black font-bold cursor-pointer mb-1">
+                  <p className="text-orange-500 hover:text-black font-bold cursor-pointer mb-1">
                     MuscleBlaze Coupons
                   </p>
                 </div>

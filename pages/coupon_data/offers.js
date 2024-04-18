@@ -321,7 +321,7 @@ const Offers = ({ data, setShowMore, showMore }) => {
                                           {system.reply}
                                         </p>
                                         <p className="text-[12px]">
-                                          <span className="font-bold text-[#f88f55]">
+                                          <span className="font-bold text-orange-500">
                                             GrabOn
                                           </span>
                                           ,

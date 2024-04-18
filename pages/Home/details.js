@@ -60,7 +60,7 @@ const TrendingDeals = ({ categories }) => {
     <div className="py-[20px] border-y-[#e7e7e7] border-y-[1px] mt-[24px]">
       <div className="lg:max-w-[1140px] sm:max-w-[720px] max-w-[540px] mx-auto px-[14px]">
         <div className="mb-[24px] flex justify-between items-center">
-          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
+          <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-orange-500 after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
             Deals Of The Day
           </h1>
           <Link
@@ -77,9 +77,9 @@ const TrendingDeals = ({ categories }) => {
           {data?.map((item, key) => (
             <div
               key={key}
-              className="group shadow-[0_1px_4px_0_rgba(17,19,35,.08)] cursor-pointer hover:shadow-[0_1px_4px_0_rgba(112,168,34,.78)] border-[1px] border-[#e7e7e7] p-[12px] rounded-md hover:border-[#70a822] transition-all relative"
+              className="group shadow-[0_1px_4px_0_rgba(17,19,35,.08)] cursor-pointer hover:shadow-[0_1px_4px_0_rgba(248, 143, 85)] border-[1px] border-[#e7e7e7] p-[12px] rounded-md hover:border-orange-500transition-all relative"
             >
-              <div className="bg-[#f88f55] absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
+              <div className="bg-orange-500 absolute top-[14px] left-0 text-white text-[12px] p-[4px_8px]">
                 {item.offer}
               </div>
               <Image

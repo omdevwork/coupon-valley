@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="lg:w-auto w-[50%]">
-              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-orange-500 text-[14px] mb-[18px] font-bold">
                 COMPANY
               </h1>
               <a
@@ -117,7 +117,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="lg:w-auto w-[50%]">
-              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-orange-500 text-[14px] mb-[18px] font-bold">
                 SPECIALITY PAGES
               </h1>
               <a
@@ -164,7 +164,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="lg:w-auto w-[50%] lg:mt-0 mt-4">
-              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-orange-500 text-[14px] mb-[18px] font-bold">
                 MORE…
               </h1>
               <a
@@ -193,11 +193,11 @@ const Footer = () => {
               </a>
             </div>
             <div className="lg:w-auto w-[50%] lg:mt-0 mt-4">
-              <h1 className="text-[#f88f55] text-[14px] mb-[18px] font-bold">
+              <h1 className="text-orange-500 text-[14px] mb-[18px] font-bold">
                 CONTACT US
               </h1>
               <div className="flex gap-[5px]">
-                <LuMail className="text-[#f88f55]" />
+                <LuMail className="text-orange-500" />
                 <a
                   href="#"
                   className="text-[14px] hover:underline text-white block mb-[12px] leading-4"
@@ -206,7 +206,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex gap-[5px]">
-                <IoCallOutline className="text-[#f88f55]" />
+                <IoCallOutline className="text-orange-500" />
                 <a
                   href="#"
                   className="text-[14px] hover:underline text-white block mb-[12px] leading-4"
@@ -215,7 +215,7 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex gap-[5px]">
-                <BiHomeAlt className="text-[#f88f55]" />
+                <BiHomeAlt className="text-orange-500" />
                 <a
                   href="#"
                   className="text-[14px] hover:underline text-white block mb-[12px] leading-4"

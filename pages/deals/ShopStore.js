@@ -15,7 +15,7 @@ const ShopStore = ({ data }) => {
   return (
     <div className="lg:max-w-[1140px] md:max-w-[720px] max-w-[540px] mx-auto px-[14px] py-[24px]">
       <div className="mb-[24px] flex justify-between items-center">
-        <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-[#f88f55] after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
+        <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-orange-500 after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 sm:text-[22px] text-[18px] text-[#030306]">
           Shop by Store
         </h1>
         <button className="border-[1px] border-black sm:p-[7px_12px] p-[7px_8px] flex items-center gap-[6px] sm:text-[14px] text-[12px]">
@@ -32,7 +32,7 @@ const ShopStore = ({ data }) => {
         {displayedData?.map((item, key) => (
           <div
             key={key}
-            className="border-[#e7e7e7] hover:border-[#70a822] border-[1px] rounded h-[55px] overflow-hidden relative flex justify-center items-center cursor-pointer"
+            className="border-[#e7e7e7] hover:border-orange-500border-[1px] rounded h-[55px] overflow-hidden relative flex justify-center items-center cursor-pointer"
             onClick={() => {
               handleItemClick(item._id);
             }}

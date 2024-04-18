@@ -135,7 +135,7 @@ const Id = ({ categoriesValue, rating }) => {
                           Coupons & Offers
                         </p>
                         <p className="border-l-0 ml-0 pl-0 text-[##bac1c2] my-0 mx-0 mb-1 inline-block text-[10px]">
-                          <BsCheck2 className="mr-1 text-[6px] w-[12px] h-[12px] text-[#fff] bg-[#f88f55] rounded-[50%] inline-block align-middle text-center leading-3" />
+                          <BsCheck2 className="mr-1 text-[6px] w-[12px] h-[12px] text-[#fff] bg-orange-500 rounded-[50%] inline-block align-middle text-center leading-3" />
                           Verified
                         </p>
                         <div
@@ -169,7 +169,7 @@ const Id = ({ categoriesValue, rating }) => {
                         {matchId === test ? (
                           <>
                             <button className="flex items-center pl-[12px]">
-                              <AiFillStar className="text-[36px] fill-[#f88f55] stroke-[#f88f55]" />
+                              <AiFillStar className="text-[36px] fill-orange-500 stroke-orange-500" />
                               {matchingRatings.map((item, key) => (
                                 <p
                                   key={key}
@@ -205,7 +205,7 @@ const Id = ({ categoriesValue, rating }) => {
                       <span className="px-[4px]">|</span>
 
                       <p className="flex">
-                        <AiFillCheckCircle className="text-[#f88f55] mt-[3px] mr-2 w-[12px] bg-white rounded-full h-[12px]" />
+                        <AiFillCheckCircle className="text-green-500 mt-[3px] mr-2 w-[12px] bg-white rounded-full h-[12px]" />
                         {data.coupon.length + data.offer.length} Verified
                       </p>
                     </div>
@@ -238,7 +238,7 @@ const Id = ({ categoriesValue, rating }) => {
                           checked={enabled}
                           onChange={setEnabled}
                           className={classNames(
-                            enabled ? "bg-[#f88f55]" : "bg-[#808080]",
+                            enabled ? "bg-orange-500" : "bg-[#808080]",
                             "relative inline-flex h-[24px] w-[50px] flex-shrink-0 cursor-pointer rounded-full border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-0 focus:ring-indigo-600 focus:ring-offset-0"
                           )}
                         >

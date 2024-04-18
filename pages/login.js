@@ -50,7 +50,7 @@ const Login = ({ setIsOpen }) => {
               <Google />
             </div>
           </div>
-          <div className="bg-[#f88f55] text-white text-center p-[12px] rounded-[0_0_4px_4px] lg:text-[16px] text-[14px]">
+          <div className="bg-orange-500 text-white text-center p-[12px] rounded-[0_0_4px_4px] lg:text-[16px] text-[14px]">
             <p className="block lg:hidden">
               © 2023. All Rights Reserved. <br /> Proudly Designed By GrabOn
               Design Team.

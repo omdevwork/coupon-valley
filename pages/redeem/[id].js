@@ -72,7 +72,7 @@ const Reddem = ({ offer, offerData }) => {
               <small className="text-[12px] text-[#000] block text-center font-[700] max-lg:hidden">
                 Your Offer Has Been Activated On The Website Already
               </small>
-              <div className="py-[5px] px-[5px] pl-[15px] bg-[#f5f5f5] rounded-none items-center border-dashed border-1 border-[#f88f55] justify-between hidden max-lg:flex">
+              <div className="py-[5px] px-[5px] pl-[15px] bg-[#f5f5f5] rounded-none items-center border-dashed border-1 border-orange-500 justify-between hidden max-lg:flex">
                 <p className="border-0 w-auto h-auto leading-[1] text-start text-[16px] font-[700] flex-[0 0 calc(100% - 120px)] inline-block align-middle rounded-sm text-[#16171a]">
                   {offer.offer}
                 </p>
@@ -122,7 +122,7 @@ const Reddem = ({ offer, offerData }) => {
                 <div className="block border-0 p-0 mt-[18px] text-center">
                   <span className="text-[#2491ef] border border-[#2491ef] bg-[#f0f8ff] inline-block py-2 px-3 rounded-[32px]">
                     Did the coupon work?
-                    <span className="border border-[#f88f55] hover:bg-[#f88f55] hover:text-[#fff] rounded-sm text-[#595959] bg-[#fff] py-[4px] px-3 inline-block my-0 mx-[4px] text-[12px]">
+                    <span className="border border-orange-500 hover:bg-orange-500 hover:text-[#fff] rounded-sm text-[#595959] bg-[#fff] py-[4px] px-3 inline-block my-0 mx-[4px] text-[12px]">
                       Yes
                     </span>
                     <span className="border border-[#d56164] hover:bg-[#d56164] hover:text-[#fff] rounded-sm text-[#595959] bg-[#fff] py-[4px] px-3 inline-block my-0 mx-[4px] text-[12px]">
@@ -153,7 +153,7 @@ const Reddem = ({ offer, offerData }) => {
       <div className="py-[12px] px-0 pb-6">
         <div className="container max-w-[1140px] m-auto max-lg:max-w-[720px] max-xl:max-w-[960px]">
           <h1 className="font-[700] text-[#515151] text-[16px] mt-3 mb-4 relative">
-            <span className="after:content-[''] after:bg-[#f88f55] after:w-[80px] after:block after:h-[4px] after:mt-[6px]">
+            <span className="after:content-[''] after:bg-orange-500 after:w-[80px] after:block after:h-[4px] after:mt-[6px]">
               GrabOn Related Coupons
             </span>
           </h1>

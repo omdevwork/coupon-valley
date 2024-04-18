@@ -59,7 +59,7 @@ const Contact = () => {
               </h1>
               <p className="text-[14px]">
                 You can mail us at
-                <a href="#" className="text-[#f88f55]">
+                <a href="#" className="text-orange-500">
                   contact@grabon.in
                 </a>
                 <br /> Or, drop in a message below & we will get back to you in
@@ -139,7 +139,7 @@ const Contact = () => {
                     <label className="floating-label">Message</label>
                   </div>
 
-                  <button className="bg-[#f88f55] w-[160px] p-[10px_40px] text-[16px] font-semibold text-white mt-[36px] rounded-[20px]">
+                  <button className="bg-orange-500 w-[160px] p-[10px_40px] text-[16px] font-semibold text-white mt-[36px] rounded-[20px]">
                     {isLoading ? "Submiting..." : "Submit"}
                   </button>
                 </form>

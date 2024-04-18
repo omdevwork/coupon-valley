@@ -4,7 +4,7 @@ const Indulge_footer = () => {
   return (
     <div className="bg-[#222] py-[20px] px-[12px] mt-[70px]">
       <div>
-        <h1 className="text-[#f88f55] text-[50px] leading-[48px] font-bold py-[10px] text-center">
+        <h1 className="text-orange-500 text-[50px] leading-[48px] font-bold py-[10px] text-center">
           GrabOn
         </h1>
         <p className="text-[14px] text-white text-center leading-[30px]">

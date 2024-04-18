@@ -116,8 +116,8 @@ const SeeOffers = (props) => {
                     onClick={() => setClick("categories")}
                     className={
                       click === "categories"
-                        ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
-                        : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                        ? "py-[12px] text-orange-500 text-[14px] leading-4 w-full text-start"
+                        : "py-[12px] text-[#515151] hover:text-orange-500 text-[14px] leading-4 w-full text-start"
                     }
                   >
                     See All Categories
@@ -128,8 +128,8 @@ const SeeOffers = (props) => {
                     onClick={() => setClick("store")}
                     className={
                       click === "store"
-                        ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
-                        : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                        ? "py-[12px] text-orange-500 text-[14px] leading-4 w-full text-start"
+                        : "py-[12px] text-[#515151] hover:text-orange-500 text-[14px] leading-4 w-full text-start"
                     }
                   >
                     See All Stores
@@ -139,8 +139,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("brand")}
                   className={
                     click === "brand"
-                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-orange-500 text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-orange-500 text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Brands
@@ -149,8 +149,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("bank")}
                   className={
                     click === "bank"
-                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-orange-500 text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-orange-500 text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Banks
@@ -159,7 +159,7 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("festival")}
                   className={
                     click === "festival"
-                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-orange-500 text-[14px] leading-4 w-full text-start"
                       : "py-[12px] text-[#515151] hover:text-[rgb(141,182,84)] text-[14px] leading-4 w-full text-start"
                   }
                 >
@@ -169,8 +169,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("deals")}
                   className={
                     click === "deals"
-                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-orange-500 text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-orange-500 text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Product Deals
@@ -179,8 +179,8 @@ const SeeOffers = (props) => {
                   onClick={() => setClick("cities")}
                   className={
                     click === "cities"
-                      ? "py-[12px] text-[#f88f55] text-[14px] leading-4 w-full text-start"
-                      : "py-[12px] text-[#515151] hover:text-[#f88f55] text-[14px] leading-4 w-full text-start"
+                      ? "py-[12px] text-orange-500 text-[14px] leading-4 w-full text-start"
+                      : "py-[12px] text-[#515151] hover:text-orange-500 text-[14px] leading-4 w-full text-start"
                   }
                 >
                   See All Cities Deals
@@ -272,8 +272,8 @@ const SeeOffers = (props) => {
                 <div className="mb-[25px] mt-[20px] flex gap-[12px] flex-wrap">
                   <p
                     className={`text-[14px] cursor-pointer ${selectedLetter === "All"
-                      ? "text-[#f88f55]"
-                      : "hover:text-[#f88f55]"
+                      ? "text-orange-500"
+                      : "hover:text-orange-500"
                       } cursor-pointer`}
                     onClick={() => setSelectedLetter("All")}
                   >
@@ -285,8 +285,8 @@ const SeeOffers = (props) => {
                       <p
                         key={index}
                         className={`text-[14px] cursor-pointer ${selectedLetter === letter
-                          ? "text-[#f88f55]"
-                          : "hover:text-[#f88f55]"
+                          ? "text-orange-500"
+                          : "hover:text-orange-500"
                           } cursor-pointer`}
                         onClick={() => setSelectedLetter(letter)}
                       >

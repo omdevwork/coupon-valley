@@ -80,7 +80,7 @@ const Platform = () => {
               />
               <button
                 onClick={submitHandler}
-                className="bg-[#f88f55] shadow-[0_0_3px_0_rgba(0,0,0,.23)] rounded-[3px] text-[14px] lg:w-[35%] w-full text-white p-[12px] h-[40px] flex justify-center items-center lg:mt-0 mt-[12px]"
+                className="bg-orange-500 shadow-[0_0_3px_0_rgba(0,0,0,.23)] rounded-[3px] text-[14px] lg:w-[35%] w-full text-white p-[12px] h-[40px] flex justify-center items-center lg:mt-0 mt-[12px]"
               >
                 Start Saving!
               </button>
