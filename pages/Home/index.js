@@ -29,7 +29,7 @@ const cardData = [
   },
   {
     id: 3,
-    des: "GrabOn Top Saver: Upto Rs 1200 OFF On Domestic Flights",
+    des: "Upto Rs 1200 OFF On Domestic Flights",
     img: mcd,
     img2: airplane,
     color: "blue",

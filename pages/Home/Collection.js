@@ -73,7 +73,7 @@ const Collection = () => {
     <div className="border-b-[#e7e7e7] border-b-[1px]">
       <div className="lg:max-w-[1140px] sm:max-w-[720px] max-w-[540px] mx-auto px-[14px] py-[20px]">
         <h1 className="font-semibold relative after:absolute after:content-[''] after:bg-orange-500 after:w-[80px] after:h-[3px] after:bottom-[-4px] after:left-0 mb-[24px] sm:text-[22px] text-[18px] text-[#030306]">
-          GrabOn Collections
+          Coupon Valley Collections
         </h1>
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-[18px] mb-[24px]">
           {offerData.map((data, key) => (

@@ -7,6 +7,7 @@ const path = require("path");
 const { unlinkFile } = require("../utils/unlinkFile");
 
 const createCategories = catchAsyncError(async (req, res, next) => {
+  console.log("FILE --- ",req.file)
   try {
     const { categoriesName } = req.body;
     const categoriesImage = req.file.filename;
